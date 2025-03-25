@@ -32,7 +32,7 @@ export const ColorGenerator = () => {
     <div>
       <button onClick={generateColor}>Generate Color</button>
       {selectedColor && (
-        <p>Color seleccionado: {selectedColor}</p>
+        <p>Selected Color: {selectedColor}</p>
       )}
     </div>
   );
